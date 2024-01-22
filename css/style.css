@@ -102,16 +102,16 @@ form .fa-solid{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
 .wgt-filter{
     font-weight: 700;
 }
 .btn-filter{
     background: #ffffff;
-    border: 2px solid #f2f2f2;
-    padding: 4px 19px;
-    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+    padding: 17px 20px;
+    border-radius: 40px;
     cursor: pointer;
 }
 
@@ -161,6 +161,10 @@ form .fa-solid{
     border-radius: 20px;
 }
 
+.hebergement h2 {
+    margin-left: 30px;
+}
+
 .hebergement-cards{
     display: flex;
     flex-direction: row;
@@ -168,12 +172,16 @@ form .fa-solid{
     justify-content: space-between;
     row-gap: 30px;
    border-radius: 20px;
+   width: 90%;
+   margin-left: 30px;
 }
 
 .show-more{
     padding-top: 30px;
     font-size: 18px;
     font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 .populaire{
     width: 30%;
@@ -189,6 +197,11 @@ form .fa-solid{
     justify-content: space-between;
     border-radius: 20px;
 }
+
+.pop-head h2 {
+margin-top: 4px;
+}
+
 .pop-head i{
     color: #0065FC;
 }
@@ -201,10 +214,10 @@ form .fa-solid{
 }
 
 .hebergement-cards a article img{
-    width: 98%;
+    width: 96%;
     height: 124px;
     object-fit: cover;
-    margin: 1% 1% 0 1%;
+    margin: 1% 1% 0 2%;
     border-radius: 20px 20px 0 0;
 }
 
@@ -241,8 +254,8 @@ article p span{
     gap: 30px;
 }
 .populaire-cards article{
-    width: 82%;
-    height: 126px;
+    width: 97%;
+    height: 140px;
     border-radius: 20px;
     background-color: #FFFFFF;
     box-shadow: 0px 3px 15px 0px #0000001A;
@@ -252,9 +265,9 @@ article p span{
 
 .populaire-cards article img{
     width: 30%;
-    height: 111px;
+    height: 132px;
     object-fit: cover;
-    padding: 1% 0 1% 1%;
+    padding: 1% 1% 1% 1%;
     border-radius: 20px 0 0 20px;
 }
 .card-pop-content{
@@ -304,15 +317,15 @@ article p span{
 
 .activity-article {
     border-radius: 20px ;
-    width: 20%;
-    height: 439px;
+    width: 23%;
+    height: 600px;
     background-color: #FFFFFF;
     box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
 article img{
     width: 100%;
-    height: 380px;
+    height: 545px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
