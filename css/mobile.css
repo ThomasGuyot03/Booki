@@ -1,5 +1,5 @@
 /****** Responsive Mobile ***********/
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 /*** header ***/
 nav ul {
     width: 100%;
@@ -15,6 +15,13 @@ nav ul .nav-link{
     width: 49%;
     display: inline-block;
     text-align: center;
+}
+
+.nav-link:hover {
+    border-top: none; /* Supprimer la bordure au survol */
+    border-bottom: 3px solid #0065FC; /* Ajouter la bordure en bas */
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .filter-section{
@@ -38,14 +45,17 @@ form .fa-solid{
 form input{
     width: 75%;
 }
+
 /*** filter ***/
 .filter-section ul{
     display: inline;
 }
+
 .filter-section ul .wgt-filter{
     padding-top: 35px;
     padding-bottom: 20px;
 }
+
 .filter-section ul .btn-filter{
     width: 45%;
     padding: 10px 0;
@@ -53,6 +63,7 @@ form input{
     text-align: center;
     margin: 10px 5px;
 }
+
 .filter-section div .fa-solid {
     width: 24px;
     height: 18px;
@@ -63,6 +74,7 @@ form input{
     flex-direction: column-reverse;
     gap: 50px;
 }
+
 .populaire-cards{
     flex-direction: column;
 }
@@ -76,6 +88,7 @@ width: 100%;
 border-radius: 0;
 margin-left: -21px;
 }
+
 
 .hebergement-cards{
     flex-direction: column;
@@ -117,13 +130,14 @@ margin-left: -21px;
 
 /*** footer ***/
 footer{
-    padding: 0 20px;
+    padding: 0 0px;
     flex-direction: column;
     width: 100%;
     margin-left: 0;
 }
 
 footer ul {
+    margin-left: 10%;
     padding: 0;
     width: 33%;
     list-style-type: none;

@@ -18,24 +18,30 @@ nav ul{
     flex-wrap: wrap;
     gap: 68px;
 }
+
 .logo{
     flex: 1;
     padding: 30px 0;
 }
+
 .logo a img{
     width: 69px;
 }
+
 .nav-link{
     padding-top: 14px;
 }
+
 .nav-link:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
 }
+
 .nav-link a {
     text-decoration: none;
     color: #000000;
 }
+
 .nav-link a:hover{
     text-decoration: none;
     color: #0065FC;
@@ -122,6 +128,7 @@ form .fa-solid{
 .btn-filter .fa-solid{
     padding-right: 10px;
     color: #0065FC;
+    font-size: 15px;
 }
 
 .btn-filter:hover{
@@ -364,5 +371,6 @@ footer ul li a{
 .title-footer{
     font-weight: 700;
 }
+
 
 
