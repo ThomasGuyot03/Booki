@@ -2,37 +2,39 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 /*** filter ***/
 .wgt-filter{
-    width: 100%;
+  width: 100%;
 }
 
 /*** hosting section ***/
 .hosting-section{
-    flex-direction: column;
-    gap: 50px;
+  flex-direction: column;
+  gap: 50px;
 }
+
 .hebergement{
-    width: 100%;
+  width: 100%;
 }
+
 .populaire{
-    width: 95%;
+  width: 95%;
 }
+
 .populaire-cards{
-    flex-direction: row;
+  flex-direction: row;
 }
+
 .populaire-cards a{
-    width: 33%;
+  width: 33%;
 }
 
 /*** activité marseille ***/
 .activity-article{
-    height: 270px;
+  height: 270px;
 }
+
 article img{
-    height: 200px;
-    
+  height: 200px;
 }
-
-
 }
-                    
-                    
+                
+                
