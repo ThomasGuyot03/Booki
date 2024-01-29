@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
 body{
-  margin: 0;
-}
+  margin-left: auto; /* Ajoute une marge à gauche */
+  margin-right: auto; /* Ajoute une marge à droite */
+  max-width: 1440px; /* Limite la largeur maximale de l'écran */}
 
 * {
   font-family: 'Raleway', sans-serif;
