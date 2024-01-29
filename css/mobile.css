@@ -60,11 +60,11 @@ form input{
 }
 
 .filter-section ul .btn-filter{
-  width: 45%;
+  width: calc(50% - 10px); /* Définit la largeur à 50% moins la marge */
   padding: 10px 0;
   display: inline-block;
   text-align: center;
-  margin: 10px 5px;
+  margin: 10px 0px;
 }
 
 .filter-section div .fa-solid {
