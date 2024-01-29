@@ -43,6 +43,7 @@ nav ul .nav-link{
 
 form .fa-solid{
   display: block;
+  margin-left: -15px;
 }
 
 form input{
