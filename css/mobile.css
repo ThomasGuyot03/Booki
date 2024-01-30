@@ -106,7 +106,7 @@ margin-left: -21px;
 .hebergement {
   width: 100%;
   background-color: white;
-  margin-left: -3%;
+  margin-left: -6%;
 }
 
 /*** activite marseille ***/
@@ -114,8 +114,8 @@ margin-left: -21px;
   flex-direction: column;
   gap: 15px;
   justify-content: unset;
-  width: 80%;
-  margin-left: 6%;
+  width: 90%;
+  margin-left: 3%;
 }
 
 .activity-section h2 {
