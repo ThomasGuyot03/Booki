@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
 body{
- margin: 0 auto;
+  margin: 0 auto;
   max-width: 1440px; /* Limite la largeur maximale de l'écran */}
 
 * {
   font-family: 'Raleway', sans-serif;
 }
 
-/*** header ***/
-nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0 50px;
+header {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 68px;
-  top: 0; /* Aligner en haut de la fenêtre */
-
+  flex-flow: row nowrap;
+  max-height: 59px;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 50px;
 }
 
-.logo{
-  flex: 1;
-  padding: 30px 0;
+.logo {
+  margin-right: auto; /* Déplace le logo vers la gauche */
 }
 
-.logo  img{
+.logo img {
   width: 69px;
 }
 
-.nav-link{
-  padding-top: 14px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  padding: 20px 10px;
 }
 
 .nav-link:hover {
@@ -44,10 +48,13 @@ nav ul{
   color: #000000;
 }
 
-.nav-link a:hover{
-  text-decoration: none;
+.nav-link a:hover {
   color: #0065FC;
 }
+
+
+
+
 
 /*** main ***/
 /*** filter section ***/
