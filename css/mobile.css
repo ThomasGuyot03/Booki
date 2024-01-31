@@ -84,7 +84,8 @@ form input{
 }
 
 .populaire-cards a{
-  width: 100%;
+  width: 93%;
+  margin-left: 2%;
 }
 
 .populaire{
@@ -101,6 +102,7 @@ margin-left: -21px;
 
 .hebergement-cards a{
   width: 100%;
+  margin-left: 2%;
 }
 
 .hebergement {
@@ -123,8 +125,9 @@ margin-left: -21px;
 }
 
 .activity-article{
-  width: 100%;
+  width: 97%;
   height: 200px;
+  margin-left: 2%;
 }
 
 .activity-article img{
