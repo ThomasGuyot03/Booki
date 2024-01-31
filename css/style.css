@@ -226,7 +226,7 @@ form .fa-solid{
 }
 .hebergement-cards a {
   width: 31%;
-  height: 207px;
+  height: auto;
   border-radius: 20px;
   background-color: #FFFFFF;
   box-shadow: 0px 3px 15px 0px #0000001A;
@@ -243,6 +243,7 @@ form .fa-solid{
 .hebergement-cards a article h3,p, .hebergement-card-rating{
   padding: 0 0 0 16px;
   margin: 2px 0;
+  font-size: 16px;
 }
 
 article p span{
@@ -301,6 +302,7 @@ article p span{
 .populaire-cards article h3, p, .pop-card-rating{
   padding: 0 0 0 16px;
   margin: 5px 0;
+  font-size: 16px;
 }
 
 .populaire-cards article p{
