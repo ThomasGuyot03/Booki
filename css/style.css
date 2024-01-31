@@ -2,6 +2,7 @@
 
 body{
   margin: 0 auto;
+  min-width: 1025;
   max-width: 1440px; /* Limite la largeur maximale de l'écran */}
 
 * {
@@ -188,8 +189,8 @@ form .fa-solid{
   justify-content: space-between;
   row-gap: 30px;
   border-radius: 20px;
-  width: 90%;
-  margin-left: 30px;
+  width: 95%;
+  margin-left: 15px;
 }
 
 .show-more{
@@ -241,7 +242,7 @@ form .fa-solid{
 
 .hebergement-cards a article h3,p, .hebergement-card-rating{
   padding: 0 0 0 16px;
-  margin: 5px 0;
+  margin: 2px 0;
 }
 
 article p span{
